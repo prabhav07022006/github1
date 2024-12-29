@@ -1,0 +1,22 @@
+#myLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#myRoll{
+    text-align: center;
+    font-size: 3em;
+    border-radius: 10px;
+    background-color: rgb(11, 11, 255);
+    padding: 5px 25px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+#myRoll:hover{
+    background-color:rgb(0, 0, 193)
+}
+#myDiv{
+    text-align: center;
+}
+
