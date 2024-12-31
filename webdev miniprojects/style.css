@@ -52,3 +52,7 @@ label{
 #mySubmit :hover{
     background-color: #c50606;
 }
+#message{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
