@@ -1,0 +1,54 @@
+body{ 
+    background: linear-gradient(to right, #ff7e5f, #feb47b); 
+   
+}
+input[type="radio"]{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    width: 20px; height: 20px; 
+    background: #fff; 
+    border: 2px solid #007BFF; 
+    border-radius: 50%; 
+    outline: none; 
+    cursor: pointer; 
+    position: relative;
+
+}
+input[type="radio"]:checked::before { 
+    content: ''; 
+    width: 10px; 
+    height: 10px; 
+    background: #007BFF; 
+    border-radius: 50%; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: aliceblue;
+}
+#header{
+    font-family: 'Open Sans', sans-serif;
+}
+#myLabel{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1.5em;
+}
+#mySubmit{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.75em;
+    background-color: #f01515;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    
+}
+#mySubmit :hover{
+    background-color: #c50606;
+}
